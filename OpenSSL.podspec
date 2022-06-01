@@ -10,7 +10,7 @@ OPENSSL_VERSION="1.1.1o"
 
 Pod::Spec.new do |s|
   s.name            = "OpenSSL"
-  s.version         = "1.0.213"
+  s.version         = "1.1.115"
   s.summary         = "OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support."
   s.author          = "OpenSSL Project <openssl-dev@openssl.org>"
   s.source          = { http: "https://www.openssl.org/source/openssl-#{OPENSSL_VERSION}.tar.gz", sha256: "9384a2b0570dd80358841464677115df785edb941c71211f75076d72fe6b438f" }
